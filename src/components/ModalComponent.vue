@@ -7,7 +7,7 @@
       </div>
       <div class="modal-body">
         <div class="modal-img">
-          <carousel
+          <carousel class="shadow"
             v-if="project.slides"
             :perPage="1"
             :navigationEnabled="true"
@@ -19,7 +19,7 @@
             </slide>
           </carousel>
           <a v-else :href="project.src" target="_blank"
-            ><img :src="project.src"
+            ><img class="shadow" :src="project.src"
           /></a>
         </div>
         <div class="modal-text">
@@ -31,6 +31,13 @@
             :href="project.demo"
             target="_blank"
             >Demo</a
+          >
+          <a
+            class="btn-link"
+            v-if="project.code"
+            :href="project.code"
+            target="_blank"
+            >Github</a
           >
           <a
             class="btn-link"
@@ -126,7 +133,6 @@ export default {
 img {
   display: block;
   width: 100%;
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
 }
 
 .modal-body {
@@ -172,6 +178,10 @@ img {
       font-weight: bold;
     }
   }
+}
+
+.shadow {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
 }
 
 button.VueCarousel-navigation-button.VueCarousel-navigation-next {

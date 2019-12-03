@@ -81,6 +81,14 @@ h1 {
   cursor: pointer;
 }
 
+@media (max-width: 640px) {
+  .project {
+    width: calc(100% / 2 - 0.5rem);
+    /* Double the padding, for double width */
+    padding-bottom: 28.125%;
+  }
+}
+
 @media (max-width: 399px) {
   .project {
     width: 100%;

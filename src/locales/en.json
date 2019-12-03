@@ -40,6 +40,24 @@
     },
     {
       "id": 3,
+      "src": "/img/ui/mobile_1.jpg",
+      "type": "UI and UX",
+      "recipient": "Thesis project",
+      "description": [
+        "Thesis project in which the goal was to design a mobile user interface for Salpausselkä Geopark app.",
+        "The design process was approached using mobile-first priciples and the user interface styling implemented Google's Material Design."
+      ],
+      "tools": "Gravit Designer, Proto.io",
+      "slides": [
+        "/img/ui/mobile_1.jpg",
+        "/img/ui/mobile_2.jpg",
+        "/img/ui/mobile_3.jpg",
+        "/img/ui/mobile_4.jpg",
+        "/img/ui/mobile_5.jpg"
+      ]
+    },
+    {
+      "id": 4,
       "src": "/img/ui/KemppiUI.jpg",
       "type": "UI and UX",
       "recipient": "Kemppi Hackathon for LUAS students",
@@ -48,10 +66,11 @@
         "The team's production won the 2nd place price in the contest and got a special mention for the interface design."
       ],
       "demo": "https://jlaurikainen.github.io/KemppiHackathon/",
+      "code": "https://github.com/jlaurikainen/KemppiHackathon",
       "tools": "HTML, CSS, Bootstrap, Bootswatch"
     },
     {
-      "id": 4,
+      "id": 5,
       "src": "/img/ui/LahtiAquaHackathon.jpg",
       "type": "UI and UX",
       "recipient": "Lahti Aqua Hackathon for LUAS students",
@@ -63,10 +82,11 @@
       ],
       "tools": "HTML, CSS, Javascript, Bootstrap, Bootswatch",
       "demo": "https://jlaurikainen.github.io/LahtiAquaHackathon/",
+      "code": "https://github.com/jlaurikainen/LahtiAquaHackathon",
       "url": "https://www.ladec.fi/tiedotteet/lahti-aqua-haastoi-hackthonissa-opiskelijat-uudistamaan-verkostosaneerausprojektien-viestinnan"
     },
     {
-      "id": 5,
+      "id": 6,
       "src": "/img/3d/Subdiv_Polymodeling_Webster.jpg",
       "type": "3D-modeling",
       "recipient": "Student work",
@@ -77,7 +97,7 @@
       "tools": "3DS Max, Photoshop"
     },
     {
-      "id": 6,
+      "id": 7,
       "src": "/img/unity/6.jpg",
       "type": "3D-modeling, Texturing, Unity 3D",
       "recipient": "Student work",
@@ -96,18 +116,19 @@
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "src": "/img/3d/Lowpoly_House.jpg",
       "type": "3D-modeling, Animation",
       "recipient": "Student work",
       "description": [
         "The final submission for a two-week long 3d-animation course. The goal of the course was to create a short character animation",
-        "In addition to modeling the character I modeled and environment for the animation, using a low-poly style."
+        "In addition to modeling the character, I modeled an environment for the animation, using a low-poly style."
       ],
       "tools": "Cinema 4D, Photoshop",
       "slides": [
         "/img/3d/Lowpoly_House.jpg",
-        "/img/3d/Lowpoly_Island.jpg"
+        "/img/3d/Lowpoly_Island.jpg",
+        "/img/3d/Animation_Character.jpg"
       ]
     }
   ]
