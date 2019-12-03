@@ -66,7 +66,7 @@ body {
 }
 
 body {
-  background: url("./assets/lake-juan-pavila-unsplash-edit@75.jpg"), $clr-pri;
+  background: url("./assets/sai-kiran-anagani-unsplash.jpg"), $clr-pri;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
