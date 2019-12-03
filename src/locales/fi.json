@@ -1,0 +1,101 @@
+{
+  "aboutHeading": "Monipuolinen mediatekniikan osaaja",
+  "aboutInterests": [
+    "Verkkokehitys",
+    "UI ja UX",
+    "3D-mallinnus",
+    "Graafinen suunnittelu"
+  ],
+  "pageTitles": {
+    "projects": "Projektit"
+  },
+  "strings": {
+    "tools": "Työkalut",
+    "ladec-article": "Ladec artikkeli"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "src": "/img/signage/IskuCenter.jpg",
+      "type": "Signage",
+      "recipient": "LAMK Kampuskehitys, Isku Oy",
+      "description": [
+        "Ulko-opaste Isku Center -kiinteistön sisäänkäyntien ja parkkipaikkojen paikantamiseen. Opaste suunniteltiin kahteen kokoon: 1500mm x 2000mm ja 3220mm x 1890mm, ja otettiin käyttöön syksyllä 2018.",
+        "Toimeksianto Lahden ammattikorkeakoulun kampuskehitykseltä ja Isku Oy:ltä.",
+        "Design perustui alustavaan suunitelmaan opasteesta, ja designia iteroitiin asiakkaan palautteen perusteella työn edetessä."
+      ],
+      "tools": "Adobe Illustrator"
+    },
+    {
+      "id": 2,
+      "src": "/img/visualization/3DLamk.jpg",
+      "type": "3D-visualisointi ja -mallinnus, UI",
+      "recipient": "LAMK Kampuskehitys",
+      "description": [
+        "3d.lamk.fi -palveluun lisätty visualisointi LAMK M19 kampuksen tilasta D267. Tilan 3d-mallinnuksessa hyödynnettiin olemassa olevaa mallinnusta tilasta. Tilan kalustus mallinnettiin huoneistokohtaisen kalustekatalogin pohjalta. Mallinnoksen lisäksi 3d-malleille tehtiin UV-kartoitus ja teksturointi. Mallinnoksien referensseinä käytettiin niin kuvallista huonekalustuskatalogia, kuin myös Isku Oyn omaa kuvamateriaalia kalusteista.",
+        "Projektiin kuului lisäksi 3d.lamk.fi -palvelun ulkoasun uusiminen, jonka yhteydessä tehtiin myös palvelun toiminnallisuuteen muutoksia. Muutoksia tehtiin tilatietojen hakuun. Merkkikielellä kovakoodatut tilatiedot poimittiin erillisiin tiedostoihin, joista tiedot haetaan dynaamisesti katseltavan tilan muuttuessa."
+      ],
+      "demo": "http://3d.lamk.fi/",
+      "tools": "Blender, HTML, CSS, Javascript, jQuery, Bootstrap, Sketchfab"
+    },
+    {
+      "id": 3,
+      "src": "/img/ui/KemppiUI.jpg",
+      "type": "UI ja UX",
+      "recipient": "Kemppi Hackathon LAMKin opiskejoille",
+      "description": [
+        "Projekti tehtiin kahden päivän aikana neljän hengen tiimityönä Kemppi Oyn järjestämässä hackathon kilpailussa. Projektissa oli tavoitteena tuottaa toimiva REST-API, josta haetut tiedot voitaisiin esittää tiimin suunnittelemassa käyttöliittymässä. Tiimin työtehtävät jaettiin back-end, front-end ja käyttöliittymäsuunnitteluun kunkin jäsenen taitojen perusteella. Osallistuin kilpailussa käyttöliittymän ja sen toiminnallisuuden suunnitteluun sekä toteutukseen käyttäen HTML-merkkikieltä ja Bootstrap CSS-frameworkkia.",
+        "Tiimin hackathon tuotos voitti 2. sijan kilpailussa ja sai erikoismaininnan käyttöliittymäsuunnitelusta."
+      ],
+      "demo": "https://jlaurikainen.github.io/KemppiHackathon/",
+      "tools": "HTML, CSS, Bootstrap, Bootswatch"
+    },
+    {
+      "id": 4,
+      "src": "/img/ui/LahtiAquaHackathon.jpg",
+      "type": "UI ja UX",
+      "recipient": "Lahti Aqua Hackathon LAMKin opiskelijoille",
+      "description": [
+        "Yhden päivän pituinen Lahti Aquan järjestämä hackathon, jonka tavoitteena oli tuottaa käyttöliittymäsuunnitelma mobiilisovelluksena tuotettavalle Lahti Aquan asiakas- ja alihankkija-applikaatiolle. Käyttöliittymäsuunnitelman lisäksi kilpailussa pyydettiin suunnittelemaan applikaation back-end tietokannan osalta ja ottamaan kantaan applikaation toteuttamiseen käytettäviin teknologioihin.",
+        "Hackathon tuotos luotiin neljän hengen tiimissä. Tiimi jaettiin yhteen back-end suunnittelijaan, kahteen käyttöliittymäsuunnittelijaan ja yksi tiimin jäsenistä toimi Scrum-masterina. Tiimi päätyi toteuttamaan applikaation hybriditeknologioilla. Täten applikaation ulkoasun rakentamisessa voitaisiin hyödyntää web-teknologioita, ja applikaatio olisi mahdollista rakentaa niin Androidille, iOS:lle, ja tarvittaessa myös selain-alustalle. Osallistuin kilpailussa käyttöliittymän suunnitteluun, ja toteutin kilpailun esitystilaisuuteen käyttöliittymän suunniteltua toimintaa demoavan verkkosivuston, jota voitiin demota Chrome selaimen kehitystyökauilla myös mobiiliapplikaationa.",
+        "Tiimin tuotos voitti 1. sijan kilpailussa."
+      ],
+      "tools": "HTML, CSS, Javascript, Bootstrap, Bootswatch",
+      "demo": "https://jlaurikainen.github.io/LahtiAquaHackathon/",
+      "url": "https://www.ladec.fi/tiedotteet/lahti-aqua-haastoi-hackthonissa-opiskelijat-uudistamaan-verkostosaneerausprojektien-viestinnan"
+    },
+    {
+      "id": 5,
+      "src": "/img/3d/Subdiv_Polymodeling_Webster.jpg",
+      "type": "3D-mallinnus",
+      "recipient": "Opiskelijatyö",
+      "description": [
+        "3d-mallinnus -kurssin lopputyö. Mallinnos Webster Chicago lankanauhoittimesta.",
+        "Kurssin tavoiteena oli oppia Subdivision hardsurface-mallinnuksen -perusteet."
+      ],
+      "tools": "3DS Max, Photoshop"
+    },
+    {
+      "id": 6,
+      "src": "/img/unity/6.jpg",
+      "type": "3D-mallinnus, Teksturointi, Unity 3D",
+      "recipient": "Opiskelijatyö",
+      "description": [
+        "Kahden viikon kestoisen pelimallinnus-kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli saada teksturoitu 3d-mallinnus tuotua Unity 3D -pelimoottoriin.",
+        "Koska olin tutustunut aikasemmin kurssin tehtävän vaatimaan työnkulkuun, hyödynsin kurssin keston uuden teksturointityökalun (Substance Painter) toiminnan opetteluun."
+      ],
+      "tools": "3DS Max, Blender, Substance Painter, Unity 3D"
+    },
+    {
+      "id": 7,
+      "src": "/img/3d/Lowpoly_House.jpg",
+      "type": "3D-mallinnus, Animaatio",
+      "recipient": "Opiskelijatyö",
+      "description": [
+        "Kahden viikon kestoisen 3d-animaatio -kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli tuottaa lyhytkestoinen hahmoanimaatio.",
+        "Hahmon lisäksi mallinsin animaatioon myös ympäristö low-polygon -tyylillä."
+      ],
+      "tools": "Cinema 4D, Photoshop"
+    }
+  ]
+}
