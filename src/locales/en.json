@@ -85,7 +85,15 @@
         "The final submission for a two-week long Game Modeling -course. The goal of the course was to create a 3d-model and import it into the Unity 3D game engine.",
         "As I had previous experience on the workflow required for the coursework, I took the opportunity to learn about a new texturing tool (Substance Painter) during the course."
       ],
-      "tools": "3DS Max, Blender, Substance Painter, Unity 3D"
+      "tools": "3DS Max, Blender, Substance Painter, Unity 3D",
+      "slides": [
+        "/img/unity/6.jpg",
+        "/img/unity/5.jpg",
+        "/img/unity/4.jpg",
+        "/img/unity/3.jpg",
+        "/img/unity/2.jpg",
+        "/img/unity/1.jpg"
+      ]
     },
     {
       "id": 7,
@@ -96,7 +104,11 @@
         "The final submission for a two-week long 3d-animation course. The goal of the course was to create a short character animation",
         "In addition to modeling the character I modeled and environment for the animation, using a low-poly style."
       ],
-      "tools": "Cinema 4D, Photoshop"
+      "tools": "Cinema 4D, Photoshop",
+      "slides": [
+        "/img/3d/Lowpoly_House.jpg",
+        "/img/3d/Lowpoly_Island.jpg"
+      ]
     }
   ]
 }

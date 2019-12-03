@@ -84,7 +84,15 @@
         "Kahden viikon kestoisen pelimallinnus-kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli saada teksturoitu 3d-mallinnus tuotua Unity 3D -pelimoottoriin.",
         "Koska olin tutustunut aikasemmin kurssin tehtävän vaatimaan työnkulkuun, hyödynsin kurssin keston uuden teksturointityökalun (Substance Painter) toiminnan opetteluun."
       ],
-      "tools": "3DS Max, Blender, Substance Painter, Unity 3D"
+      "tools": "3DS Max, Blender, Substance Painter, Unity 3D",
+      "slides": [
+        "/img/unity/6.jpg",
+        "/img/unity/5.jpg",
+        "/img/unity/4.jpg",
+        "/img/unity/3.jpg",
+        "/img/unity/2.jpg",
+        "/img/unity/1.jpg"
+      ]
     },
     {
       "id": 7,
@@ -95,7 +103,11 @@
         "Kahden viikon kestoisen 3d-animaatio -kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli tuottaa lyhytkestoinen hahmoanimaatio.",
         "Hahmon lisäksi mallinsin animaatioon myös ympäristö low-polygon -tyylillä."
       ],
-      "tools": "Cinema 4D, Photoshop"
+      "tools": "Cinema 4D, Photoshop",
+      "slides": [
+        "/img/3d/Lowpoly_House.jpg",
+        "/img/3d/Lowpoly_Island.jpg"
+      ]
     }
   ]
 }
