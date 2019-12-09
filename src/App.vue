@@ -45,9 +45,9 @@ export default {
 /* Root and reset */
 
 :root {
-  font-size: 16px;
+  font-size: 14px;
   color: $clr-fnt;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -66,7 +66,7 @@ body {
 }
 
 body {
-  background: url("./assets/sai-kiran-anagani-unsplash.jpg"), $clr-pri;
+  background: $clr-pri url("./assets/sai-kiran-anagani-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -79,7 +79,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Dosis", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: $clr-emp;
 }
 
@@ -110,7 +110,7 @@ h6 {
   width: 100%;
   height: 4rem;
   line-height: 4rem;
-  background: rgba(0,0,0,0.25);
+  background: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(5px);
   z-index: 1;
 

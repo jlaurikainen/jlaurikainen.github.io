@@ -6,24 +6,27 @@
         class="project"
         v-for="project in projects"
         :key="project.id"
-        :data-src="project.src"
         :style="{
-          backgroundImage: `url(${project.src})`,
+          backgroundColor: '#3c3c50',
+          backgroundImage: `url(${project.src})`
         }"
         stagger="100"
         @click="toggleModal(project)"
-      >
-      </div>
+      ></div>
     </div>
     <transition name="fade" mode="out-in">
-      <ModalComponent v-bind:project="clickedProject" v-if="modalOpen" @clicked="toggleModal({})"/>
+      <ModalComponent
+        v-bind:project="clickedProject"
+        v-if="modalOpen"
+        @clicked="toggleModal({})"
+      />
     </transition>
   </div>
 </template>
 
 <script>
-import i18n from '../i18n';
-import ModalComponent from '../components/ModalComponent';
+import i18n from "../i18n";
+import ModalComponent from "../components/ModalComponent";
 
 export default {
   components: {
@@ -38,7 +41,7 @@ export default {
     return {
       modalOpen: false,
       clickedProject: {}
-    }
+    };
   },
   methods: {
     toggleModal(p) {
@@ -46,7 +49,7 @@ export default {
       this.modalOpen = !this.modalOpen;
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -70,7 +73,7 @@ h1 {
 }
 
 .project {
-  position: relative; 
+  position: relative;
   width: calc(100% / 3 - 0.5rem);
   margin-bottom: 0.75rem;
   background-size: cover;
@@ -92,7 +95,7 @@ h1 {
 @media (max-width: 399px) {
   .project {
     width: 100%;
-    /* Double the padding, for double width */
+    /* Double again the padding, for double width */
     padding-bottom: 56.25%;
   }
 }

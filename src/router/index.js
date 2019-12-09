@@ -1,44 +1,44 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Projects from '../views/Projects.vue'
-import i18n from '../i18n'
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Home from "../views/Home.vue";
+import Projects from "../views/Projects.vue";
+import i18n from "../i18n";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
+    path: "/",
     redirect: `/${i18n.locale}`
   },
   {
-    path: '/projects',
+    path: "/projects",
     redirect: `/${i18n.locale}/projects`
   },
   {
-    path: '/:lang',
+    path: "/:lang",
     component: {
-      render: c => c('router-view')
+      render: c => c("router-view")
     },
     children: [
       {
-        path: '',
-        name: 'home',
+        path: "",
+        name: "home",
         component: Home
       },
       {
-        path: 'projects',
-        name: 'projects',
+        path: "projects",
+        name: "projects",
         component: Projects
       }
     ]
   }
-]
+];
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: "hash",
   base: process.env.BASE_URL,
   routes
-})
+});
 
-export default router
+export default router;

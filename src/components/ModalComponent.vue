@@ -3,11 +3,12 @@
     <div class="content">
       <div class="modal-title">
         <h2>{{ project.type }}</h2>
-        <button @click="closeModal">X</button>
+        <button @click="closeModal"><i class="material-icons">close</i></button>
       </div>
       <div class="modal-body">
         <div class="modal-img">
-          <carousel class="shadow"
+          <carousel
+            class="shadow"
             v-if="project.slides"
             :perPage="1"
             :navigationEnabled="true"
@@ -94,7 +95,6 @@ export default {
   width: 90vw;
   max-height: 80vh;
   background: $clr-pri;
-  border-radius: 3px;
   overflow: auto;
   &::-webkit-scrollbar {
     display: none;
@@ -124,8 +124,16 @@ export default {
     cursor: pointer;
     color: $clr-fnt;
 
-    &:hover {
+    i {
+      transition: all 0.3s cubic-bezier(0.5,-0.5, 0.5, 1.5);
+    }
+
+    &:hover, &:focus {
       background: rgba(0, 0, 0, 0.25);
+
+      i {
+        transform: rotate(90deg);
+      }
     }
   }
 }
@@ -146,6 +154,7 @@ img {
   }
 
   .modal-text {
+    line-height: 1.5;
     color: #000;
     width: 50%;
     padding: 1rem;
@@ -176,16 +185,19 @@ img {
       color: $clr-pri;
       border: 3px solid $clr-pri;
       font-weight: bold;
+      transition: background 0.05s ease-in-out, color 0.05s ease-in-out, transition 0.05s ease-in-out;
+
+      &:hover, &:focus {
+        transform: scale(1.05);
+        background: $clr-pri;
+        color: $clr-fnt;
+      }
     }
   }
 }
 
 .shadow {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
-}
-
-button.VueCarousel-navigation-button.VueCarousel-navigation-next {
-  background: red;
 }
 
 @media (max-width: 639px) {

@@ -8,18 +8,20 @@
       </transition>
     </div>
     <div class="col">
-      <router-link :to="projectUrl" tag="button" class="cta-btn">{{ $t("pageTitles.projects") }}</router-link>
+      <router-link :to="projectUrl" tag="button" class="cta-btn">{{
+        $t("pageTitles.projects")
+      }}</router-link>
     </div>
   </div>
 </template>
 
 <script>
-import i18n from '../i18n'
+import i18n from "../i18n";
 
 export default {
   mounted() {
     setInterval(() => {
-      if(this.idx < this.interests.length - 1){
+      if (this.idx < this.interests.length - 1) {
         this.idx++;
       } else {
         this.idx = 0;
@@ -39,7 +41,7 @@ export default {
       return i18n.messages[i18n.locale].aboutInterests;
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -66,7 +68,7 @@ h1 {
 h2 {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: $clr-demp;
 }
 
@@ -83,12 +85,20 @@ h2:nth-child(3) {
   border: 3px solid $clr-fnt;
   background: transparent;
   cursor: pointer;
+  transition: background 0.05s ease-in-out, color 0.05s ease-in-out, transition 0.05s ease-in-out;
+
+  &:hover, &:focus {
+    transform: scale(1.025);
+    background: $clr-fnt;
+    color: $clr-pri;
+  }
 }
 
 /* Vue transitions */
 
-.slide-fade-enter-active, .slide-fade-leave-active {
-  transition: opacity .5s, transform .5s;
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: opacity 0.5s, transform 0.5s;
 }
 .slide-fade-enter {
   opacity: 0;
