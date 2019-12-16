@@ -113,6 +113,7 @@ h1 {
   p {
     line-height: 1.5;
     margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
     max-width: 55ch;
 
     &:last-child {
@@ -125,7 +126,7 @@ h1 {
   }
 
   &.links {
-    padding: 3rem 0rem;
+    padding: 1.5rem 0rem 3rem 0rem;
     justify-content: center;
   }
 

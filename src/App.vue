@@ -9,8 +9,8 @@
             alt="Juha Laurikainen Emblem"
         /></router-link>
         <div class="links">
-          <router-link :to="'/fi' + currentRoute">FI</router-link>
           <router-link :to="'/en' + currentRoute">EN</router-link>
+          <router-link :to="'/fi' + currentRoute">FI</router-link>
         </div>
       </div>
     </transition>
@@ -100,11 +100,13 @@ h3 {
   margin-right: 0.5rem;
   background: transparent;
   font-weight: bold;
-  transition: background 0.15s ease-in-out, color 0.15s ease-in-out, transition 0.15s ease-in-out;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out,
+    transition 0.15s ease-in-out;
   border-width: 3px;
   border-style: solid;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     transform: scale(1.05);
   }
 }
@@ -129,13 +131,14 @@ h3 {
   img {
     display: block;
     float: left;
-    height: 4rem;
+    height: 100%;
     padding: 0.8rem;
     width: auto;
     transition: background 0.15s ease-in-out;
 
-    &:hover, &:active {
-      background: rgba(255,255,255,0.05);
+    &:hover,
+    &:active {
+      background: rgba(255, 255, 255, 0.05);
     }
   }
 
@@ -145,7 +148,8 @@ h3 {
     a {
       text-decoration: none;
       color: rgba($clr-flt, 0.2);
-      display: inline-block;
+      display: block;
+      float: right;
       padding: 0rem 1.5rem;
       font-size: 0.75rem;
       transition: background 0.15s ease-in-out;
@@ -154,8 +158,9 @@ h3 {
         color: $clr-flt;
       }
 
-      &:hover, &:active {
-        background: rgba(255,255,255,0.05);
+      &:hover,
+      &:active {
+        background: rgba(255, 255, 255, 0.05);
       }
     }
   }
