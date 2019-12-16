@@ -8,9 +8,11 @@
       </transition>
     </div>
     <div class="col">
-      <router-link :to="projectUrl" tag="button" class="cta-btn">{{
-        $t("pageTitles.projects")
-      }}</router-link>
+      <router-link :to="projectUrl" class="btn-link emp">
+        {{ $t("pageTitles.projects") }}</router-link>
+      <router-link :to="aboutUrl" class="btn-link emp">
+        {{ $t("pageTitles.aboutShort") }}
+      </router-link>
     </div>
   </div>
 </template>
@@ -35,7 +37,10 @@ export default {
   },
   computed: {
     projectUrl() {
-      return i18n.locale + "/projects";
+      return "/" + i18n.locale + "/projects";
+    },
+    aboutUrl() {
+      return "/" + i18n.locale + "/about";
     },
     interests() {
       return i18n.messages[i18n.locale].aboutInterests;
@@ -45,7 +50,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/color";
+@import "../assets/variables";
 
 .content {
   display: flex;
@@ -59,38 +64,29 @@ export default {
 }
 
 h1 {
-  font-size: 3rem;
   line-height: 1;
   margin-bottom: 1.5rem;
   letter-spacing: 2px;
 }
 
 h2 {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-  font-family: "Titillium Web", sans-serif;
-  color: $clr-demp;
+  color: $clr-fde;
 }
 
 h2:nth-child(3) {
   margin-bottom: 3rem;
 }
 
-.cta-btn {
-  display: block;
-  margin: 0px auto;
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
-  color: $clr-fnt;
-  border: 3px solid $clr-fnt;
-  background: transparent;
-  cursor: pointer;
-  transition: background 0.05s ease-in-out, color 0.05s ease-in-out, transition 0.05s ease-in-out;
+.btn-link {
+  border-color: $clr-emp2;
+  color: $clr-flt;
+
+  &.emp {
+    padding: 1rem 1.5rem;
+  }
 
   &:hover, &:focus {
-    transform: scale(1.025);
-    background: $clr-fnt;
-    color: $clr-pri;
+    background: $clr-emp2;
   }
 }
 
@@ -108,5 +104,22 @@ h2:nth-child(3) {
 .slide-fade-leave-to {
   opacity: 0;
   transform: translateX(-20px);
+}
+
+@media all and (max-height: 420px) {
+  .content {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transform: translate(0%, 0%);
+    width: 80%;
+    margin-top: 1.5rem;
+
+    .col:last-child {
+      text-align: center;
+    }
+  }
 }
 </style>

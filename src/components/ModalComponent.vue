@@ -24,7 +24,7 @@
           /></a>
         </div>
         <div class="modal-text">
-          <h3>{{ project.recipient }}</h3>
+          <h2>{{ project.recipient }}</h2>
           <p v-for="text in project.description" :key="text">{{ text }}</p>
           <a
             class="btn-link"
@@ -74,7 +74,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/color";
+@import "../assets/variables";
 
 .backdrop {
   width: 100vw;
@@ -88,13 +88,13 @@ export default {
   z-index: 2;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .content {
   width: 90vw;
   max-height: 80vh;
-  background: $clr-pri;
+  margin-top: 10vh;
   overflow: auto;
   &::-webkit-scrollbar {
     display: none;
@@ -107,8 +107,8 @@ export default {
   align-items: center;
   position: sticky;
   top: 0px;
-  background: $clr-pri;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  background: $clr-pri;
   z-index: 3;
 
   h2 {
@@ -122,7 +122,7 @@ export default {
     height: 4rem;
     width: 4rem;
     cursor: pointer;
-    color: $clr-fnt;
+    color: $clr-flt;
 
     i {
       transition: all 0.3s cubic-bezier(0.5,-0.5, 0.5, 1.5);
@@ -144,7 +144,7 @@ img {
 }
 
 .modal-body {
-  background: #f8f8f8;
+  background: $clr-bck;
   display: flex;
   overflow-y: auto;
 
@@ -155,18 +155,16 @@ img {
 
   .modal-text {
     line-height: 1.5;
-    color: #000;
     width: 50%;
     padding: 1rem;
+    color: $clr-pri;
 
-    h3 {
-      color: #333;
+    h2 {
       margin-bottom: 1.5rem;
     }
 
     h4 {
       margin-top: 2rem;
-      color: #000;
 
       span {
         font-weight: normal;
@@ -178,26 +176,15 @@ img {
     }
 
     .btn-link {
-      display: inline-block;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      margin-right: 0.5rem;
+      border-color: $clr-emp2;
       color: $clr-pri;
-      border: 3px solid $clr-pri;
-      font-weight: bold;
-      transition: background 0.05s ease-in-out, color 0.05s ease-in-out, transition 0.05s ease-in-out;
 
       &:hover, &:focus {
-        transform: scale(1.05);
-        background: $clr-pri;
-        color: $clr-fnt;
+        background: $clr-emp2;
+        color: $clr-flt;
       }
     }
   }
-}
-
-.shadow {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
 }
 
 @media (max-width: 639px) {

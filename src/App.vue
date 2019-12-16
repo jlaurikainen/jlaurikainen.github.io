@@ -40,13 +40,13 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/color";
+@import "./assets/variables";
 
-/* Root and reset */
+/* Global styles */
 
 :root {
-  font-size: 14px;
-  color: $clr-fnt;
+  font-size: 16px;
+  color: $clr-flt;
   font-family: "Roboto", sans-serif;
 }
 
@@ -57,7 +57,7 @@ export default {
 }
 
 *:focus {
-  outline: none;
+  outline: 0px;
 }
 
 html,
@@ -73,17 +73,17 @@ body {
   overflow-y: scroll;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto Condensed", sans-serif;
-  color: $clr-emp;
+h1 {
+  font-size: 3rem;
 }
 
-/* Global and local styles */
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
 
 .wrapper {
   padding-top: 4rem;
@@ -93,15 +93,27 @@ h6 {
   width: 80%;
 }
 
-.de-emp {
-  color: $clr-demp;
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  background: transparent;
+  font-weight: bold;
+  transition: background 0.15s ease-in-out, color 0.15s ease-in-out, transition 0.15s ease-in-out;
+  border-width: 3px;
+  border-style: solid;
+
+  &:hover, &:focus {
+    transform: scale(1.05);
+  }
 }
 
-.emp {
-  color: $clr-emp;
+.shadow {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.35);
 }
 
-/* Local start */
+/* Local styles */
 
 .nav {
   position: fixed;
@@ -120,6 +132,11 @@ h6 {
     height: 4rem;
     padding: 0.8rem;
     width: auto;
+    transition: background 0.15s ease-in-out;
+
+    &:hover, &:active {
+      background: rgba(255,255,255,0.05);
+    }
   }
 
   .links {
@@ -127,13 +144,18 @@ h6 {
 
     a {
       text-decoration: none;
-      font-size: 0.75rem;
-      color: rgba($clr-fnt, 0.2);
+      color: rgba($clr-flt, 0.2);
       display: inline-block;
       padding: 0rem 1.5rem;
+      font-size: 0.75rem;
+      transition: background 0.15s ease-in-out;
 
       &.router-link-active {
-        color: $clr-fnt;
+        color: $clr-flt;
+      }
+
+      &:hover, &:active {
+        background: rgba(255,255,255,0.05);
       }
     }
   }

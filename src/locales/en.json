@@ -7,11 +7,23 @@
     "Graphic Design"
   ],
   "pageTitles": {
-    "projects": "Projects"
+    "projects": "Projects",
+    "aboutShort": "About",
+    "about": "Skills and Motivation"
   },
   "strings": {
     "tools": "Tools",
-    "ladec-article": "Ladec article"
+    "ladec-article": "Ladec Article",
+    "contact-text": "Your project here?",
+    "visu": "Visualisation",
+    "adobe": "Adobe Programs",
+    "proto": "Prototyping",
+    "tech": "Technology",
+    "toAbout": "Interested in knowing more about me and my skills?"
+  },
+  "about": {
+    "p1": "I qualified as an engineer in the spring of 2018, majoring in Mediatechnology. I've had a passion especially for visualisation and front-end technologies since I was very young. My greatest strengths lie in user interface design and 3d-modeling. That doesn't mean I avoid coding however, and infact I have familiarized myself with different front- and back-end frameworks even outside school courses.",
+    "p2": "I'm interested in combining technology and visualisation into something that is usable for the end user. I'm always learning new things and I try to understand all aspects of technologies so that I might apply my existing experience in all new situations. Challenges keep me motivated."
   },
   "projects": [
     {
@@ -42,7 +54,7 @@
       "id": 3,
       "src": "/img/ui/mobile_1.jpg",
       "type": "UI and UX",
-      "recipient": "Thesis project",
+      "recipient": "Thesis Project",
       "description": [
         "Thesis project in which the goal was to design a mobile user interface for Salpausselkä Geopark app.",
         "The design process was approached using mobile-first priciples and the user interface styling implemented Google's Material Design."
@@ -62,7 +74,7 @@
       "type": "UI and UX",
       "recipient": "Kemppi Hackathon for LUAS students",
       "description": [
-        "The project was a two-day long hackathon team-contest event organized by Kemppi Oy. The goal of the project was to create a REST-API for fetching information onto a UI designed by the team. The responsibilities of the team members were divided according to the strength of the team members. The different responsibilities were back-end, front-end and user interface design. I was responsible for designing the UI using HTML and the Bootstrap CSS framework.",
+        "The project was a two-day long hackathon team-contest event organized by Kemppi Oy. The goal of the project was to create a REST-API for fetching information onto a UI designed by the team. The responsibilities of the team members were divided according to the strengths of the team members. The different responsibilities were back-end, front-end and user interface design. I was responsible for designing the UI using HTML and the Bootstrap CSS framework.",
         "The team's production won the 2nd place price in the contest and got a special mention for the interface design."
       ],
       "demo": "https://jlaurikainen.github.io/KemppiHackathon/",
@@ -89,7 +101,7 @@
       "id": 6,
       "src": "/img/3d/Subdiv_Polymodeling_Webster.jpg",
       "type": "3D-modeling",
-      "recipient": "Student work",
+      "recipient": "Student Project",
       "description": [
         "The final submission for a 3d-modeling course. A model of a Webster Chicago Wire Recorder.",
         "The goal of the course was to learn the basics of Subdivision hard-surface -modeling."
@@ -100,7 +112,7 @@
       "id": 7,
       "src": "/img/unity/6.jpg",
       "type": "3D-modeling, Texturing, Unity 3D",
-      "recipient": "Student work",
+      "recipient": "Student Project",
       "description": [
         "The final submission for a two-week long Game Modeling -course. The goal of the course was to create a 3d-model and import it into the Unity 3D game engine.",
         "As I had previous experience on the workflow required for the coursework, I took the opportunity to learn about a new texturing tool (Substance Painter) during the course."
@@ -119,7 +131,7 @@
       "id": 8,
       "src": "/img/3d/Lowpoly_House.jpg",
       "type": "3D-modeling, Animation",
-      "recipient": "Student work",
+      "recipient": "Student Project",
       "description": [
         "The final submission for a two-week long 3d-animation course. The goal of the course was to create a short character animation",
         "In addition to modeling the character, I modeled an environment for the animation, using a low-poly style."

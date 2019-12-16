@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Projects from "../views/Projects.vue";
+import About from "../views/About";
 import i18n from "../i18n";
 
 Vue.use(VueRouter);
@@ -16,6 +17,10 @@ const routes = [
     redirect: `/${i18n.locale}/projects`
   },
   {
+    path: "/about",
+    redirect: `/${i18n.locale}/about`
+  },
+  {
     path: "/:lang",
     component: {
       render: c => c("router-view")
@@ -24,12 +29,17 @@ const routes = [
       {
         path: "",
         name: "home",
-        component: Home
+        component: Home,
       },
       {
         path: "projects",
         name: "projects",
         component: Projects
+      },
+      {
+        path: "about",
+        name: "about",
+        component: About
       }
     ]
   }

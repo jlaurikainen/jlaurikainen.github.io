@@ -1,17 +1,29 @@
 {
   "aboutHeading": "Monipuolinen mediatekniikan osaaja",
   "aboutInterests": [
-    "Verkkokehitys",
     "UI ja UX",
     "3D-mallinnus",
+    "Verkkokehitys",
     "Graafinen suunnittelu"
   ],
   "pageTitles": {
-    "projects": "Projektit"
+    "projects": "Projektit",
+    "aboutShort": "Osaaminen",
+    "about": "Osaaminen ja motivaatio"
   },
   "strings": {
     "tools": "Työkalut",
-    "ladec-article": "Ladec artikkeli"
+    "ladec-article": "Ladec artikkeli",
+    "contact-text": "Projektisi tähän?",
+    "visu": "Visualisointi",
+    "adobe": "Adobe-ohjelmistot",
+    "proto": "Prototypointi",
+    "tech": "Tekniikka",
+    "toAbout": "Kiinnostuitko tietämään enemmän osaamistani teknologioista?"
+  },
+  "about": {
+    "p1": "Valmistuin Tieto- ja viestintätekniikan insinööriksi keväällä 2018, suuntautuen Mediatekniikkaan. Minulla on ollu intohimo erityisesti visualisointia ja front-end teknologioita kohtaan jo pienistä pitäen. Olen vahvimmillani käyttöliittymäsuunnittelussa ja 3d-mallintamisessa. En kuitenkaan kaihda koodia ja olen tutustuttanut itseni uusiin front- ja back-end teknologiohin myös koulun kurssien ulkopuolella.",
+    "p2": "Olen kiinnostunut yhdistämään teknologian ja visuaalisuuden käytettäväksi kokonaisuudeksi. Pyrin oppimaan aina uutta ja ymmärtämään teknologiakokonaisuudet kattavasti, jotta osaisin laajentaa olemassa olevan osaamiseni soveltamista uusiin tilanteisiin. Haasteet pitävät minut motivoituneena."
   },
   "projects": [
     {
@@ -62,8 +74,8 @@
       "type": "UI ja UX",
       "recipient": "Kemppi Hackathon LAMKin opiskejoille",
       "description": [
-        "Projekti tehtiin kahden päivän aikana neljän hengen tiimityönä Kemppi Oyn järjestämässä hackathon kilpailussa. Projektissa oli tavoitteena tuottaa toimiva REST-API, josta haetut tiedot voitaisiin esittää tiimin suunnittelemassa käyttöliittymässä. Tiimin työtehtävät jaettiin back-end, front-end ja käyttöliittymäsuunnitteluun kunkin jäsenen taitojen perusteella. Osallistuin kilpailussa käyttöliittymän ja sen toiminnallisuuden suunnitteluun sekä toteutukseen käyttäen HTML-merkkikieltä ja Bootstrap CSS-frameworkkia.",
-        "Tiimin hackathon tuotos voitti 2. sijan kilpailussa ja sai erikoismaininnan käyttöliittymäsuunnitelusta."
+        "Projekti tehtiin kahden päivän aikana, neljän hengen tiimityönä, Kemppi Oyn järjestämässä hackathon kilpailussa. Projektissa oli tavoitteena tuottaa toimiva REST-API, josta haetut tiedot voitaisiin esittää tiimin suunnittelemassa käyttöliittymässä. Tiimin työtehtävät jaettiin back-end, front-end ja käyttöliittymäsuunnitteluun kunkin jäsenen taitojen perusteella. Osallistuin kilpailussa käyttöliittymän ja sen toiminnallisuuden suunnitteluun sekä toteutukseen käyttäen HTML-merkkikieltä ja Bootstrap CSS-frameworkkia.",
+        "Tiimin hackathon tuotos voitti 2. sijan kilpailussa ja sai erikoismaininnan käyttöliittymäsuunnittelusta."
       ],
       "demo": "https://jlaurikainen.github.io/KemppiHackathon/",
       "code": "https://github.com/jlaurikainen/KemppiHackathon",
@@ -76,7 +88,7 @@
       "recipient": "Lahti Aqua Hackathon LAMKin opiskelijoille",
       "description": [
         "Yhden päivän pituinen Lahti Aquan järjestämä hackathon, jonka tavoitteena oli tuottaa käyttöliittymäsuunnitelma mobiilisovelluksena tuotettavalle Lahti Aquan asiakas- ja alihankkija-applikaatiolle. Käyttöliittymäsuunnitelman lisäksi kilpailussa pyydettiin suunnittelemaan applikaation back-end tietokannan osalta ja ottamaan kantaan applikaation toteuttamiseen käytettäviin teknologioihin.",
-        "Hackathon tuotos luotiin neljän hengen tiimissä. Tiimi jaettiin yhteen back-end suunnittelijaan, kahteen käyttöliittymäsuunnittelijaan ja yksi tiimin jäsenistä toimi Scrum-masterina. Tiimi päätyi toteuttamaan applikaation hybriditeknologioilla. Täten applikaation ulkoasun rakentamisessa voitaisiin hyödyntää web-teknologioita, ja applikaatio olisi mahdollista rakentaa niin Androidille, iOS:lle, ja tarvittaessa myös selain-alustalle. Osallistuin kilpailussa käyttöliittymän suunnitteluun, ja toteutin kilpailun esitystilaisuuteen käyttöliittymän suunniteltua toimintaa demoavan verkkosivuston, jota voitiin demota Chrome selaimen kehitystyökauilla myös mobiiliapplikaationa.",
+        "Hackathonin tuotos luotiin neljän hengen tiimissä. Tiimi jaettiin yhteen back-end suunnittelijaan, kahteen käyttöliittymäsuunnittelijaan ja yksi tiimin jäsenistä toimi Scrum-masterina. Tiimi päätyi toteuttamaan applikaation hybriditeknologioilla. Täten applikaation ulkoasun rakentamisessa voitaisiin hyödyntää web-teknologioita, ja applikaatio olisi mahdollista rakentaa niin Androidille, iOS:lle, ja tarvittaessa myös selain-alustalle. Osallistuin kilpailussa käyttöliittymän suunnitteluun, ja toteutin kilpailun esitystilaisuuteen käyttöliittymän suunniteltua toimintaa demoavan verkkosivuston, jota voitiin demota Chrome selaimen kehitystyökauilla myös mobiiliapplikaationa.",
         "Tiimin tuotos voitti 1. sijan kilpailussa."
       ],
       "tools": "HTML, CSS, Javascript, Bootstrap, Bootswatch",
@@ -101,7 +113,7 @@
       "type": "3D-mallinnus, Teksturointi, Unity 3D",
       "recipient": "Opiskelijatyö",
       "description": [
-        "Kahden viikon kestoisen pelimallinnus-kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli saada teksturoitu 3d-mallinnus tuotua Unity 3D -pelimoottoriin.",
+        "Kahden viikon kestoisen pelimallinnus-kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli saada tuotua 3d-mallinnus Unity 3D -pelimoottoriin.",
         "Koska olin tutustunut aikasemmin kurssin tehtävän vaatimaan työnkulkuun, hyödynsin kurssin keston uuden teksturointityökalun (Substance Painter) toiminnan opetteluun."
       ],
       "tools": "3DS Max, Blender, Substance Painter, Unity 3D",
