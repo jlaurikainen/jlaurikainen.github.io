@@ -22,12 +22,14 @@
     "toAbout": "Kiinnostuitko tietämään enemmän osaamistani teknologioista?"
   },
   "about": {
-    "p1": "Valmistuin Tieto- ja viestintätekniikan insinööriksi keväällä 2018, suuntautuen Mediatekniikkaan. Minulla on ollu intohimo erityisesti visualisointia ja front-end teknologioita kohtaan jo pienistä pitäen. Olen vahvimmillani käyttöliittymäsuunnittelussa ja 3d-mallintamisessa. En kuitenkaan kaihda koodia ja olen tutustuttanut itseni uusiin front- ja back-end teknologiohin myös koulun kurssien ulkopuolella.",
-    "p2": "Olen kiinnostunut yhdistämään teknologian ja visuaalisuuden käytettäväksi kokonaisuudeksi. Pyrin oppimaan aina uutta ja ymmärtämään teknologiakokonaisuudet kattavasti, jotta osaisin laajentaa olemassa olevan osaamiseni soveltamista uusiin tilanteisiin. Haasteet pitävät minut motivoituneena."
+    "p1": "Valmistuin Tieto- ja viestintätekniikan insinööriksi keväällä 2018, suuntautuen Mediatekniikkaan. Minulla on ollut intohimo erityisesti visualisointia ja front-end teknologioita kohtaan jo pienistä pitäen. Olen vahvimmillani käyttöliittymäsuunnittelussa ja 3d-mallintamisessa. En kuitenkaan kaihda koodia ja olen tutustuttanut itseni uusiin front- ja back-end teknologiohin myös opiskelun ulkopuolella.",
+    "p2": "Olen kiinnostunut yhdistämään teknologian ja visuaalisuuden käytettäväksi kokonaisuudeksi. Pyrin oppimaan aina uutta ja ymmärtämään teknologiakokonaisuudet kattavasti, jotta voisin laajentaa olemassa olevan osaamiseni soveltamista uusiin tilanteisiin. Haasteet pitävät minut motivoituneena."
   },
+  "cvLink": "/files/Juha_Laurikainen_CV.pdf",
   "projects": [
     {
       "id": 1,
+      "thumb": "/img/signage/IskuCenter_Thumb.jpg",
       "src": "/img/signage/IskuCenter.jpg",
       "type": "Signage",
       "recipient": "LAMK Kampuskehitys, Isku Oy",
@@ -40,11 +42,12 @@
     },
     {
       "id": 2,
+      "thumb": "/img/visualization/3DLamk_Thumb.jpg",
       "src": "/img/visualization/3DLamk.jpg",
       "type": "3D-visualisointi ja -mallinnus, UI",
       "recipient": "LAMK Kampuskehitys",
       "description": [
-        "3d.lamk.fi -palveluun lisätty visualisointi LAMK M19 kampuksen tilasta D267. Tilan 3d-mallinnuksessa hyödynnettiin olemassa olevaa mallinnusta tilasta. Tilan kalustus mallinnettiin huoneistokohtaisen kalustekatalogin pohjalta. Mallinnoksen lisäksi 3d-malleille tehtiin UV-kartoitus ja teksturointi. Mallinnoksien referensseinä käytettiin niin kuvallista huonekalustuskatalogia, kuin myös Isku Oyn omaa kuvamateriaalia kalusteista.",
+        "3d.lamk.fi -palveluun lisätty visualisointi LAMK M19 kampuksen tilasta D267. Tilan 3d-mallinnuksessa hyödynnettiin olemassa olevaa mallinnusta tilasta. Tilan kalustus mallinnettiin huoneistokohtaisen kalustekatalogin pohjalta. Mallinnoksen lisäksi 3d-malleille tehtiin UV-kartoitus ja teksturointi. Mallinnoksien referensseinä käytettiin niin kuvallista huonekalustuskatalogia, kuin myös Isku Oy:n omaa kuvamateriaalia kalusteista.",
         "Projektiin kuului lisäksi 3d.lamk.fi -palvelun ulkoasun uusiminen, jonka yhteydessä tehtiin myös palvelun toiminnallisuuteen muutoksia. Muutoksia tehtiin tilatietojen hakuun. Merkkikielellä kovakoodatut tilatiedot poimittiin erillisiin tiedostoihin, joista tiedot haetaan dynaamisesti katseltavan tilan muuttuessa."
       ],
       "demo": "http://3d.lamk.fi/",
@@ -52,9 +55,10 @@
     },
     {
       "id": 3,
+      "thumb": "/img/ui/mobile_1_Thumb.jpg",
       "src": "/img/ui/mobile_1.jpg",
       "type": "UI ja UX",
-      "recipient": "Opinnäytetyöprojeti",
+      "recipient": "Opinnäytetyöprojekti",
       "description": [
         "Opinnäytetyöprojekti, jossa suunniteltiin mobiilikäyttöliittymä Salpausselkä Geopark -applikaatiolle.",
         "Suunnittelua lähestyttiin mobile-first -menetelmin. Ulkoasun tyyliteltiin Googlen Material Designia mukaillen."
@@ -70,12 +74,13 @@
     },
     {
       "id": 4,
+      "thumb": "/img/ui/KemppiUI_Thumb.jpg",
       "src": "/img/ui/KemppiUI.jpg",
       "type": "UI ja UX",
       "recipient": "Kemppi Hackathon LAMKin opiskejoille",
       "description": [
-        "Projekti tehtiin kahden päivän aikana, neljän hengen tiimityönä, Kemppi Oyn järjestämässä hackathon kilpailussa. Projektissa oli tavoitteena tuottaa toimiva REST-API, josta haetut tiedot voitaisiin esittää tiimin suunnittelemassa käyttöliittymässä. Tiimin työtehtävät jaettiin back-end, front-end ja käyttöliittymäsuunnitteluun kunkin jäsenen taitojen perusteella. Osallistuin kilpailussa käyttöliittymän ja sen toiminnallisuuden suunnitteluun sekä toteutukseen käyttäen HTML-merkkikieltä ja Bootstrap CSS-frameworkkia.",
-        "Tiimin hackathon tuotos voitti 2. sijan kilpailussa ja sai erikoismaininnan käyttöliittymäsuunnittelusta."
+        "Projekti toteutettiin kahden päivän aikana, neljän hengen tiimityönä, Kemppi Oyn järjestämässä hackathon-kilpailussa. Projektissa oli tavoitteena tuottaa toimiva REST-API, josta haetut tiedot voitaisiin esittää tiimin suunnittelemassa käyttöliittymässä. Tiimin työtehtävät jaettiin back-end, front-end ja käyttöliittymäsuunnitteluun kunkin jäsenen taitojen perusteella. Osallistuin kilpailussa käyttöliittymän ja sen toiminnallisuuden suunnitteluun sekä toteutukseen käyttäen HTML-merkkikieltä ja Bootstrap CSS-frameworkkia.",
+        "Tiimin hackathon-tuotos voitti 2. sijan kilpailussa ja sai erikoismaininnan käyttöliittymäsuunnittelusta."
       ],
       "demo": "https://jlaurikainen.github.io/KemppiHackathon/",
       "code": "https://github.com/jlaurikainen/KemppiHackathon",
@@ -83,12 +88,13 @@
     },
     {
       "id": 5,
+      "thumb": "/img/ui/LahtiAquaHackathon_Thumb.jpg",
       "src": "/img/ui/LahtiAquaHackathon.jpg",
       "type": "UI ja UX",
       "recipient": "Lahti Aqua Hackathon LAMKin opiskelijoille",
       "description": [
-        "Yhden päivän pituinen Lahti Aquan järjestämä hackathon, jonka tavoitteena oli tuottaa käyttöliittymäsuunnitelma mobiilisovelluksena tuotettavalle Lahti Aquan asiakas- ja alihankkija-applikaatiolle. Käyttöliittymäsuunnitelman lisäksi kilpailussa pyydettiin suunnittelemaan applikaation back-end tietokannan osalta ja ottamaan kantaan applikaation toteuttamiseen käytettäviin teknologioihin.",
-        "Hackathonin tuotos luotiin neljän hengen tiimissä. Tiimi jaettiin yhteen back-end suunnittelijaan, kahteen käyttöliittymäsuunnittelijaan ja yksi tiimin jäsenistä toimi Scrum-masterina. Tiimi päätyi toteuttamaan applikaation hybriditeknologioilla. Täten applikaation ulkoasun rakentamisessa voitaisiin hyödyntää web-teknologioita, ja applikaatio olisi mahdollista rakentaa niin Androidille, iOS:lle, ja tarvittaessa myös selain-alustalle. Osallistuin kilpailussa käyttöliittymän suunnitteluun, ja toteutin kilpailun esitystilaisuuteen käyttöliittymän suunniteltua toimintaa demoavan verkkosivuston, jota voitiin demota Chrome selaimen kehitystyökauilla myös mobiiliapplikaationa.",
+        "Yhden päivän pituinen Lahti Aquan järjestämä hackathon, jonka tavoitteena oli tuottaa käyttöliittymäsuunnitelma mobiilisovelluksena toteutettavalle Lahti Aquan asiakas- ja alihankkija-applikaatiolle. Käyttöliittymäsuunnitelman lisäksi kilpailussa pyydettiin suunnittelemaan applikaation back-end tietokannan osalta ja ottamaan kantaan applikaation toteuttamiseen käytettäviin teknologioihin.",
+        "Hackathonin tuotos luotiin neljän hengen tiimissä. Tiimi jaettiin yhteen back-end suunnittelijaan, kahteen käyttöliittymäsuunnittelijaan ja yksi tiimin jäsenistä toimi Scrum-masterina. Tiimi päätyi valitsemaan applikaation toteuttamiseen hybriditeknologiat. Täten applikaation ulkoasun rakentamisessa voitaisiin hyödyntää web-teknologioita, ja applikaatio olisi mahdollista rakentaa niin Androidille, iOS:lle, ja tarvittaessa myös selain-alustalle. Osallistuin kilpailussa käyttöliittymän suunnitteluun, ja toteutin kilpailun esitystilaisuuteen käyttöliittymän suunniteltua toimintaa demoavan verkkosivuston, jota voitiin demota Chrome-selaimen kehitystyökauilla myös mobiiliapplikaationa.",
         "Tiimin tuotos voitti 1. sijan kilpailussa."
       ],
       "tools": "HTML, CSS, Javascript, Bootstrap, Bootswatch",
@@ -98,20 +104,22 @@
     },
     {
       "id": 6,
+      "thumb": "/img/3d/Subdiv_Polymodeling_Webster_Thumb.jpg",
       "src": "/img/3d/Subdiv_Polymodeling_Webster.jpg",
       "type": "3D-mallinnus",
-      "recipient": "Opiskelijatyö",
+      "recipient": "Opiskelijaprojekti",
       "description": [
         "3d-mallinnus -kurssin lopputyö. Mallinnos Webster Chicago lankanauhoittimesta.",
-        "Kurssin tavoiteena oli oppia Subdivision hardsurface-mallinnuksen -perusteet."
+        "Kurssin tavoiteena oli oppia Subdivision hardsurface-mallinnuksen perusteet."
       ],
       "tools": "3DS Max, Photoshop"
     },
     {
       "id": 7,
+      "thumb": "/img/unity/6_Thumb.jpg",
       "src": "/img/unity/6.jpg",
       "type": "3D-mallinnus, Teksturointi, Unity 3D",
-      "recipient": "Opiskelijatyö",
+      "recipient": "Opiskelijaprojekti",
       "description": [
         "Kahden viikon kestoisen pelimallinnus-kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli saada tuotua 3d-mallinnus Unity 3D -pelimoottoriin.",
         "Koska olin tutustunut aikasemmin kurssin tehtävän vaatimaan työnkulkuun, hyödynsin kurssin keston uuden teksturointityökalun (Substance Painter) toiminnan opetteluun."
@@ -128,12 +136,13 @@
     },
     {
       "id": 8,
+      "thumb": "/img/3d/Lowpoly_House_Thumb.jpg",
       "src": "/img/3d/Lowpoly_House.jpg",
       "type": "3D-mallinnus, Animaatio",
-      "recipient": "Opiskelijatyö",
+      "recipient": "Opiskelijaprojekti",
       "description": [
         "Kahden viikon kestoisen 3d-animaatio -kesävalinnaiskurssin lopputyö opiskelun aikana. Kurssin tavoitteena oli tuottaa lyhytkestoinen hahmoanimaatio.",
-        "Hahmon lisäksi mallinsin animaatioon myös ympäristö low-polygon -tyylillä."
+        "Hahmon lisäksi mallinsin animaatioon myös ympäristön low-polygon -tyylillä."
       ],
       "tools": "Cinema 4D, Photoshop",
       "slides": [

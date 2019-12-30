@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import i18n from "./i18n";
 import VueCarousel from "vue-carousel";
+import VBodyScrollLock from 'v-body-scroll-lock';
 
 require('material-design-icons/iconfont/material-icons.css');
 
@@ -26,3 +27,4 @@ new Vue({
 }).$mount("#app");
 
 Vue.use(VueCarousel);
+Vue.use(VBodyScrollLock);

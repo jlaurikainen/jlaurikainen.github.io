@@ -544,7 +544,7 @@
         :key="project.id"
         :style="{
           backgroundColor: '#011627',
-          backgroundImage: `url(${project.src})`
+          backgroundImage: `url(${project.thumb})`
         }"
         stagger="100"
         @click="toggleModal(project)"
@@ -559,7 +559,8 @@
     <transition name="fade" mode="out-in">
       <ModalComponent
         v-bind:project="clickedProject"
-        v-if="modalOpen"
+        v-body-scroll-lock="modalOpen"
+        v-show="modalOpen"
         @clicked="toggleModal({})"
       />
     </transition>

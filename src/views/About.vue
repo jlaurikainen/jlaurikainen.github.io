@@ -12,8 +12,8 @@
       </div>
       <div class="row links">
         <router-link :to="projectUrl" class="btn-link">{{ $t("pageTitles.projects") }}</router-link>
+        <a :href="$t('cvLink')" target="_blank" class="btn-link">CV</a>
         <a href="https://github.com/jlaurikainen" target="_blank" class="btn-link">Github</a>
-        <!--a href="#" target="_blank" class="btn-link">CV</a-->
       </div>
       <div class="row skills">
         <div class="col">
