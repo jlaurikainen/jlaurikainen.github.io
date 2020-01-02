@@ -55,7 +55,6 @@
               <li>PHP</li>
               <li>MySQL</li>
               <li>WordPress</li>
-              <li>Laravel</li>
             </ul>
             <ul>
               <li>Visual Studio Code</li>
@@ -102,6 +101,7 @@ h1 {
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 
   h2 {
@@ -201,6 +201,12 @@ h1 {
     .col {
       width: 100%;
     }
+  }
+}
+
+@media (max-width: 1280px) {
+  .row {
+    justify-content: flex-start;
   }
 }
 </style>
